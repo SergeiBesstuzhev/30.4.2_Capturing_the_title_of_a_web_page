@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.22)
 project(30_4_1_Custom_Request)
 
 set(CMAKE_CXX_STANDARD 17)
-
 set(BUILD_CPR_TESTS OFF)
 set(CMAKE_USE_OPENSSL OFF)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
