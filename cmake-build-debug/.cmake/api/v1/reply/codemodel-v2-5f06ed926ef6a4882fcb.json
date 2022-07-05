@@ -135,7 +135,7 @@
 					[
 						0
 					],
-					"name" : "30_4_1_Custom_Request",
+					"name" : "30.4.2_Capturing_the_title_of_a_web_page",
 					"targetIndexes" : 
 					[
 						0
@@ -191,9 +191,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "30_4_1_Custom_Request::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-30_4_1_Custom_Request-Debug-7fa7229e240569e55784.json",
-					"name" : "30_4_1_Custom_Request",
+					"id" : "30.4.2_Capturing_the_title_of_a_web_page::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-30.4.2_Capturing_the_title_of_a_web_page-Debug-7934c30ed861b0f20a5d.json",
+					"name" : "30.4.2_Capturing_the_title_of_a_web_page",
 					"projectIndex" : 0
 				},
 				{

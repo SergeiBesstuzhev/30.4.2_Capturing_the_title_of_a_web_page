@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: 30_4_1_Custom_Request
+# Project: 30.4.2_Capturing_the_title_of_a_web_page
 # Configurations: Debug
 # =============================================================================
 
@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 30_4_1_Custom_Request
+# Object build statements for EXECUTABLE target 30.4.2_Capturing_the_title_of_a_web_page
 
 
 #############################################
-# Order-only phony target for 30_4_1_Custom_Request
+# Order-only phony target for 30.4.2_Capturing_the_title_of_a_web_page
 
-build cmake_object_order_depends_target_30_4_1_Custom_Request: phony || cmake_object_order_depends_target_cpr cmake_object_order_depends_target_libcurl
+build cmake_object_order_depends_target_30.4.2_Capturing_the_title_of_a_web_page: phony || cmake_object_order_depends_target_cpr cmake_object_order_depends_target_libcurl
 
-build CMakeFiles/30_4_1_Custom_Request.dir/main.cpp.obj: CXX_COMPILER__30_4_1_Custom_Request_Debug C$:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/main.cpp || cmake_object_order_depends_target_30_4_1_Custom_Request
-  DEP_FILE = CMakeFiles\30_4_1_Custom_Request.dir\main.cpp.obj.d
+build CMakeFiles/30.4.2_Capturing_the_title_of_a_web_page.dir/main.cpp.obj: CXX_COMPILER__30.2e4.2e2_Capturing_the_title_of_a_web_page_Debug C$:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/main.cpp || cmake_object_order_depends_target_30.4.2_Capturing_the_title_of_a_web_page
+  DEP_FILE = CMakeFiles\30.4.2_Capturing_the_title_of_a_web_page.dir\main.cpp.obj.d
   FLAGS = -g
   INCLUDES = -IC:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/cmake-build-debug/_deps/cpr-src/include -IC:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/cmake-build-debug/_deps/cpr-build/cpr_generated_includes -IC:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/cmake-build-debug/_deps/curl-src/include -isystem C:/MinGW/include
-  OBJECT_DIR = CMakeFiles\30_4_1_Custom_Request.dir
-  OBJECT_FILE_DIR = CMakeFiles\30_4_1_Custom_Request.dir
+  OBJECT_DIR = CMakeFiles\30.4.2_Capturing_the_title_of_a_web_page.dir
+  OBJECT_FILE_DIR = CMakeFiles\30.4.2_Capturing_the_title_of_a_web_page.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 30_4_1_Custom_Request
+# Link build statements for EXECUTABLE target 30.4.2_Capturing_the_title_of_a_web_page
 
 
 #############################################
-# Link the executable 30_4_1_Custom_Request.exe
+# Link the executable 30.4.2_Capturing_the_title_of_a_web_page.exe
 
-build 30_4_1_Custom_Request.exe: CXX_EXECUTABLE_LINKER__30_4_1_Custom_Request_Debug CMakeFiles/30_4_1_Custom_Request.dir/main.cpp.obj | _deps/cpr-build/cpr/libcpr.dll.a _deps/curl-build/lib/libcurl-d.dll.a C$:/MinGW/lib/libz.a || libcpr.dll libcurl-d.dll
+build 30.4.2_Capturing_the_title_of_a_web_page.exe: CXX_EXECUTABLE_LINKER__30.2e4.2e2_Capturing_the_title_of_a_web_page_Debug CMakeFiles/30.4.2_Capturing_the_title_of_a_web_page.dir/main.cpp.obj | _deps/cpr-build/cpr/libcpr.dll.a _deps/curl-build/lib/libcurl-d.dll.a C$:/MinGW/lib/libz.a || libcpr.dll libcurl-d.dll
   FLAGS = -g
   LINK_LIBRARIES = _deps/cpr-build/cpr/libcpr.dll.a  _deps/curl-build/lib/libcurl-d.dll.a  -lwinmm  -lws2_32  C:/MinGW/lib/libz.a  -ladvapi32  -lcrypt32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\30_4_1_Custom_Request.dir
+  OBJECT_DIR = CMakeFiles\30.4.2_Capturing_the_title_of_a_web_page.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 30_4_1_Custom_Request.exe
-  TARGET_IMPLIB = lib30_4_1_Custom_Request.dll.a
-  TARGET_PDB = 30_4_1_Custom_Request.exe.dbg
+  TARGET_FILE = 30.4.2_Capturing_the_title_of_a_web_page.exe
+  TARGET_IMPLIB = lib30.4.2_Capturing_the_title_of_a_web_page.dll.a
+  TARGET_PDB = 30.4.2_Capturing_the_title_of_a_web_page.exe.dbg
 
 
 #############################################
@@ -2325,7 +2325,7 @@ build _deps/cpr-build/include/install/strip: phony _deps/cpr-build/include/CMake
 # =============================================================================
 # Target aliases.
 
-build 30_4_1_Custom_Request: phony 30_4_1_Custom_Request.exe
+build 30.4.2_Capturing_the_title_of_a_web_page: phony 30.4.2_Capturing_the_title_of_a_web_page.exe
 
 build cpr: phony libcpr.dll
 
@@ -2343,7 +2343,7 @@ build zlib: phony libzlib.dll
 #############################################
 # Folder: C:/Users/serge/CLionProjects/30.4.2_Capturing_the_title_of_a_web_page/cmake-build-debug
 
-build all: phony 30_4_1_Custom_Request.exe _deps/cpr-build/all
+build all: phony 30.4.2_Capturing_the_title_of_a_web_page.exe _deps/cpr-build/all
 
 # =============================================================================
 

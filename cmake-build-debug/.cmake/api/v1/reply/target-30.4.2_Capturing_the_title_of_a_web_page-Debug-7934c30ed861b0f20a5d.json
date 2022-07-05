@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "30_4_1_Custom_Request.exe"
+			"path" : "30.4.2_Capturing_the_title_of_a_web_page.exe"
 		},
 		{
-			"path" : "30_4_1_Custom_Request.pdb"
+			"path" : "30.4.2_Capturing_the_title_of_a_web_page.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -94,7 +94,7 @@
 			"id" : "cpr::@c4b08663df96993e8225"
 		}
 	],
-	"id" : "30_4_1_Custom_Request::@6890427a1f51a3e7e1df",
+	"id" : "30.4.2_Capturing_the_title_of_a_web_page::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -143,8 +143,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "30_4_1_Custom_Request",
-	"nameOnDisk" : "30_4_1_Custom_Request.exe",
+	"name" : "30.4.2_Capturing_the_title_of_a_web_page",
+	"nameOnDisk" : "30.4.2_Capturing_the_title_of_a_web_page.exe",
 	"paths" : 
 	{
 		"build" : ".",

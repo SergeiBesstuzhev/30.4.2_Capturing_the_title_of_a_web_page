@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(30_4_1_Custom_Request)
+project(30.4.2_Capturing_the_title_of_a_web_page)
 
 set(CMAKE_CXX_STANDARD 17)
 set(BUILD_CPR_TESTS OFF)
@@ -11,5 +11,5 @@ include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git GIT_TAG 6ea2dec23c3df14ac3b27b7d2d6bbff0cb7ba1b0)
 FetchContent_MakeAvailable(cpr)
 
-add_executable(30_4_1_Custom_Request main.cpp)
-target_link_libraries(30_4_1_Custom_Request PRIVATE cpr::cpr)
+add_executable(30.4.2_Capturing_the_title_of_a_web_page main.cpp)
+target_link_libraries(30.4.2_Capturing_the_title_of_a_web_page PRIVATE cpr::cpr)
